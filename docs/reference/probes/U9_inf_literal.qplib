@@ -1,0 +1,16 @@
+QPLIB_probe_zero_section
+QBL
+minimize
+2 # number of variables
+1 # number of constraints
+-inf # default left-hand-side value
+1 # default right-hand-side value
+0 # default value for linear coefficients in objective
+1 # number of quadratic terms in objective
+2 1 -2
+2 # number of non-default linear coefficients in objective
+1 0.6
+2 0.6
+2 # number of linear terms in all constraints
+1 1 1
+1 2 1

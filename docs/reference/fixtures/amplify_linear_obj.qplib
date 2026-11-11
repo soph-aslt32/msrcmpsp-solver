@@ -1,0 +1,42 @@
+QPLIB_
+QGL
+minimize
+4 # number of variables
+2 # number of constraints
+-1.797693134862316e+308 # default left-hand-side value
+1.797693134862316e+308 # default right-hand-side value
+0 # default value for linear coefficients in objective
+0 # default variable type
+1.797693134862316e+308 # default variable upper bound value
+-1.797693134862316e+308 # default variable lower bound value
+1 # number of quadratic terms in objective
+1 1 0
+1 # number of non-default linear coefficients in objective
+4 1
+6 # number of linear terms in all constraints
+1 1 3
+1 2 5
+1 4 -1
+2 1 1
+2 2 1
+2 3 1
+2 # number of non-default left-hand-sides
+1 -1.797693134862316e+308
+2 1
+2 # number of non-default right-hand-sides
+1 -2
+2 1
+4 # number of non-default variable upper bounds
+1 1
+2 1
+3 1
+4 100
+4 # number of non-default variable lower bounds
+1 0
+2 0
+3 0
+4 0
+3 # number of non-default variable types
+1 1
+2 1
+3 1

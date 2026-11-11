@@ -1,0 +1,10 @@
+QPLIB_probe_offdiag
+QBB
+minimize
+2 # number of variables
+0 # default value for linear coefficients in objective
+1 # number of quadratic terms in objective
+2 1 -2
+2 # number of non-default linear coefficients in objective
+1 0.6
+2 0.6

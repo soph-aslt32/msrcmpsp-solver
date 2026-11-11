@@ -1,0 +1,21 @@
+QPLIB_probe_unbounded
+QCL
+minimize
+2 # number of variables
+1 # number of constraints
+-1.797693134862316e+308 # default left-hand-side value
+1.797693134862316e+308 # default right-hand-side value
+0 # default value for linear coefficients in objective
+1.797693134862316e+308 # default variable upper bound value
+-1.797693134862316e+308 # default variable lower bound value
+1 # number of quadratic terms in objective
+1 1 2
+1 # number of non-default linear coefficients in objective
+1 -2
+2 # number of linear terms in all constraints
+1 1 1
+1 2 1
+1 # number of non-default left-hand-sides
+1 3
+1 # number of non-default right-hand-sides
+1 3
